@@ -84,7 +84,7 @@ export default function Signup() {
       <main className="py-12 bg-gray-50">
         <div className="container grid lg:grid-cols-2 lg:gap-12">
           {/* Left side */}
-          <div className="space-y-8 py-10">
+          <div className="w-full space-y-8 py-10">
             <div className="welcome-msg">
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 Welcome to <span className="text-primary-600">FreshCart</span>
@@ -153,7 +153,7 @@ export default function Signup() {
             </div>
           </div>
           {/* Right side (Form) */}
-          <div className="p-10 space-y-8 bg-white rounded-xl shadow-xl">
+          <div className="w-full px-5 py-10 space-y-8 bg-white rounded-xl shadow-xl">
             <div className="text-center">
               <h2 className="text-3xl font-semibold">Create Your Account</h2>
               <p className="mt-1">Start your fresh journey with us todey</p>
