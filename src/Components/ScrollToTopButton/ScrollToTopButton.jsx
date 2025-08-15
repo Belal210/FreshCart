@@ -30,7 +30,7 @@ export default function ScrollToTopButton() {
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className="w-10 h-11 fixed bottom-5 right-8 z-10 flex justify-center items-center bg-primary-600 hover:bg-primary-700 text-white text-lg rounded-full shadow-sm shadow-primary-400 transition-colors duration-200"
+          className="w-10 h-11 fixed bottom-5 right-5 z-10 flex justify-center items-center bg-primary-600 hover:bg-primary-700 text-white text-lg rounded-full shadow-sm shadow-primary-400 transition-colors duration-200"
         >
           <FontAwesomeIcon icon={faChevronUp} className="animate-bounce translate-y-0.5"/>
         </button>
