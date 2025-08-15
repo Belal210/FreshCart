@@ -14,6 +14,7 @@ import { toast } from "react-toastify";
 import { useState } from "react";
 import { checkPasswordStrength } from "../../utils/password-utils";
 import { sendDataToSignUp } from "../../services/auth-services";
+import Rating from "../../Components/Rating/Rating";
 
 export default function Signup() {
   const navigate = useNavigate();
@@ -85,10 +86,10 @@ export default function Signup() {
           {/* Left side */}
           <div className="space-y-8 py-10">
             <div className="welcome-msg">
-              <h2 className="text-4xl font-bold">
+              <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold">
                 Welcome to <span className="text-primary-600">FreshCart</span>
               </h2>
-              <p className="text-lg mt-2">
+              <p className="md:text-lg mt-2">
                 Join thousands of happy customers who enjoy fresh groceries
                 delivered to thier doorstep.
               </p>
@@ -96,10 +97,10 @@ export default function Signup() {
 
             <ul className="space-y-5 *:flex *:items-center *:gap-3">
               <li>
-                <div className="icon size-12 rounded-full text-xl bg-primary-200 text-primary-600 flex justify-center items-center">
+                <div className="icon size-12 rounded-full text-lg md:text-xl bg-primary-200 text-primary-600 flex justify-center items-center">
                   <FontAwesomeIcon icon={faStar} />
                 </div>
-                <div className="content">
+                <div className="content text-sm md:text-[16px]">
                   <h3 className="font-semibold">Premium Quality</h3>
                   <p className="text-gray-600">
                     Premium quality products sourced from trust suppliers.
@@ -107,10 +108,10 @@ export default function Signup() {
                 </div>
               </li>
               <li>
-                <div className="icon size-12 rounded-full text-xl bg-primary-200 text-primary-600 flex justify-center items-center">
+                <div className="icon size-12 rounded-full text-lg md:text-xl bg-primary-200 text-primary-600 flex justify-center items-center">
                   <FontAwesomeIcon icon={faTruckFast} />
                 </div>
-                <div className="content">
+                <div className="content text-sm md:text-[16px]">
                   <h3 className="font-semibold">Fast Delivery</h3>
                   <p className="text-gray-600">
                     Same-day delivery available in most areas
@@ -118,10 +119,10 @@ export default function Signup() {
                 </div>
               </li>
               <li>
-                <div className="icon size-12 rounded-full text-xl bg-primary-200 text-primary-600 flex justify-center items-center">
+                <div className="icon size-12 rounded-full text-lg md:text-xl bg-primary-200 text-primary-600 flex justify-center items-center">
                   <FontAwesomeIcon icon={faShieldHalved} />
                 </div>
-                <div className="content">
+                <div className="content text-sm md:text-[16px]">
                   <h3 className="font-semibold">Secure Shopping</h3>
                   <p className="text-gray-600">
                     Your datavand payments are completely secure
@@ -130,37 +131,16 @@ export default function Signup() {
               </li>
             </ul>
 
-            <div className="review bg-white p-6 rounded-xl shadow-md">
+            <div className="review bg-white text-sm md:text-[16px] p-6 rounded-xl shadow-md">
               <div className="flex items-center gap-3">
                 <img
-                  className="size-12 rounded-full"
+                  className="size-10 md:size-12 rounded-full"
                   src={reviewauthorImg}
                   alt="Sarah Johnson Profile Image"
                 />
                 <div>
                   <h3>Sarah Johnson</h3>
-                  <div className="rating">
-                    <FontAwesomeIcon
-                      icon={faStar}
-                      className="text-yellow-300"
-                    />
-                    <FontAwesomeIcon
-                      icon={faStar}
-                      className="text-yellow-300"
-                    />
-                    <FontAwesomeIcon
-                      icon={faStar}
-                      className="text-yellow-300"
-                    />
-                    <FontAwesomeIcon
-                      icon={faStar}
-                      className="text-yellow-300"
-                    />
-                    <FontAwesomeIcon
-                      icon={faStar}
-                      className="text-yellow-300"
-                    />
-                  </div>
+                  <Rating rating={5}/>
                 </div>
               </div>
               <blockquote className="italic text-gray-700 mt-4">
