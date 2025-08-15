@@ -3,11 +3,17 @@ A modern e-commerce store allows you to shop, purchase products, pay online and 
 
 # Packages
 [✅] Design [UI] Styles => TailwindCSS
+
 [✅] Icons              => Font Awesome
+
 [✅] Routing            => React Router
+
 [✅] API                => Axios
+
 [✅] Working with Forms => Formik
+
 [✅] Validation         => Yup
+
 [✅] Fonts              => Font Source
 
 ## Variables
