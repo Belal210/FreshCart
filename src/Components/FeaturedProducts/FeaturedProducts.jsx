@@ -26,7 +26,7 @@ export default function FeaturedProducts() {
             <h2 className="text-2xl font-bold">Featured Products</h2>
             <Link
               to={"/all-products"}
-              className="text-primary-600 text-xs md:text-sm lg:text-[16px] hover:text-primary-700 transition-colors duration-200 font-semibold flex items-center gap-2"
+              className="text-primary-600 pl-1 md:pl-0 text-xs md:text-sm lg:text-[16px] hover:text-primary-700 transition-colors duration-200 font-semibold flex items-center gap-2"
             >
               View All Products
             </Link>
