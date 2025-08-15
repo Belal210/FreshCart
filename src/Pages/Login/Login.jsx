@@ -154,19 +154,19 @@ export default function Login() {
                   <button className="btn bg-transparent border-2 w-full border-gray-400/40">
                     <FontAwesomeIcon
                       icon={faGoogle}
-                      className="text-red-500 text-lg"
+                      className="text-red-500 md:text-lg"
                     />
-                    <span className="font-medium text-gray-700">
-                      Continue whith Google
+                    <span className="font-medium text-sm md:text-[16px] text-gray-700">
+                      Continue with Google
                     </span>
                   </button>
                   <button className="btn bg-transparent border-2 w-full border-gray-400/40">
                     <FontAwesomeIcon
                       icon={faFacebook}
-                      className="text-blue-600 text-lg"
+                      className="text-blue-600 md:text-lg"
                     />
-                    <span className="font-medium text-gray-700">
-                      Continue whith Facebook
+                    <span className="font-medium text-sm md:text-[16px] text-gray-700">
+                      Continue with Facebook
                     </span>
                   </button>
                 </div>
