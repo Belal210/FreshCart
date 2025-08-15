@@ -40,7 +40,7 @@ export default function HomeDeals() {
         <div className="flex justify-between items-center">
           <div>
             <h2 className="text-2xl font-bold mb-4">Deals of the Day</h2>
-            <div className="flex items-center gap-2 text-sm md:text-[16px]">
+            <div className="flex items-center gap-2 text-xs md:text-[16px]">
               <p>Offers ends in :</p>
               <div className="counter flex items-center gap-2">
                 <div className="size-7 text-white text-sm bg-gray-900 flex justify-center items-center rounded-md">
@@ -59,7 +59,7 @@ export default function HomeDeals() {
           </div>
           <Link
             to={"/all-deals"}
-            className="text-xs md:text-sm lg:text-[16px] font-semibold text-primary-600 hover:text-primary-700 transition-colors duration-200"
+            className="pl-1 md:pl-0 text-xs md:text-sm lg:text-[16px] font-semibold text-primary-600 hover:text-primary-700 transition-colors duration-200"
           >
             View All Deals
           </Link>
