@@ -33,12 +33,12 @@ export default function Cart() {
                 <div className="p-5 border-b border-gray-300 flex items-center justify-between">
                   <div>
                     <h1 className="text-2xl font-bold">Shopping Cart</h1>
-                    <p className="mt-1 text-gray-600">
+                    <p className="mt-1 text-sm md:text-[16px] text-gray-600">
                       {numOfCartItems} items in your cart
                     </p>
                   </div>
                   {products.length > 0 && <button
-                    className="px-2 md:px-3 py-2 bg-red-600 text-white rounded-md text-xs md:text-sm hover:bg-red-700 transition-colors duration-300"
+                    className="px-2 md:px-3 py-2 bg-red-600 text-white rounded-md text-[10px] md:text-sm hover:bg-red-700 transition-colors duration-300"
                     onClick={handleClearingCart}
                   >
                     Clear Cart
