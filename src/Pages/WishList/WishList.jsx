@@ -19,7 +19,7 @@ export default function WishList() {
       <PageMetaData title="Wishlist" />
       <main className="py-12 bg-gray-50">
         <div className="container lg:max-w-6xl">
-          <div className="bg-white shadow-sm rounded-lg">
+          <div className="bg-white shadow-sm overflow-hidden rounded-lg">
             <div className="p-5 border-b border-gray-300">
               <h1 className="text-2xl font-bold">My Wishlist</h1>
               <p className="mt-1 text-gray-600">
