@@ -29,7 +29,7 @@ export default function Cart() {
         <div className="container">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2">
-              <div className="bg-white border border-gray-200 shadow-sm rounded-lg">
+              <div className="bg-white border border-gray-200 shadow-sm overflow-hidden rounded-lg">
                 <div className="p-5 border-b border-gray-300 flex items-center justify-between">
                   <div>
                     <h1 className="text-2xl font-bold">Shopping Cart</h1>
