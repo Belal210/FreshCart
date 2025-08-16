@@ -113,7 +113,7 @@ export default function Checkout() {
           <form onSubmit={formik.handleSubmit}>
             <h1 className="text-2xl font-semibold mb-6">Checkout</h1>
             <div className="grid lg:grid-cols-3 gap-5">
-              <div className="payment-method w-[95%] mx-auto lg:w-full lg:col-span-2">
+              <div className="payment-method w-[21rem] md:w-full mx-auto lg:col-span-2">
                 <div>
                   <div className="payment-options bg-white shadow-sm p-5 mb-6 rounded-lg">
                     <h2 className="text-xl font-semibold mb-4">
@@ -299,7 +299,7 @@ export default function Checkout() {
                 </div>
               </div>
 
-              <div className="order-summary h-fit bg-white p-5 shadow-sm rounded-lg lg:col-span-1">
+              <div className="order-summary w-[21rem] md:w-full mx-auto h-fit bg-white p-5 shadow-sm rounded-lg lg:col-span-1">
                 <h2 className="text-xl font-semibold mb-4">Order Summary</h2>
                 <div className="cart-items p-2 max-h-48 overflow-auto space-y-3 border-b border-gray-200 pb-3">
                   {products.map((product) => (
