@@ -10,6 +10,8 @@ A modern e-commerce store allows you to shop, purchase products, pay online and 
 
 [✅] API                => Axios
 
+[✅] State Management   => Context API & TanStack Query
+
 [✅] Working with Forms => Formik
 
 [✅] Validation         => Yup
